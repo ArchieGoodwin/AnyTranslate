@@ -4,6 +4,7 @@ Translate UI on the fly to any user language
 # AnyTranslate Swift API Package
 
 The AnyTranslate Swift API Package empowers iOS and macOS developers to seamlessly translate UI text elements into any user's preferred language. This versatile API offers caching capabilities and allows you to specify the target language for translation. To use the API, you must initiate it with your authentication token.
+Request token by email: nerowolfe@wilderdevs.com
 
 ## Introduction
 
@@ -49,7 +50,7 @@ import PackageDescription
 let package = Package(
     name: "YourAppName",
     dependencies: [
-        .package(url: "https://github.com/anytranslate/anytranslate-swift", from: "1.0.0")
+        .package(url: "https://github.com/ArchieGoodwin/AnyTranslate", from: "1.0.1")
     ],
     targets: [
         .target(name: "YourAppTarget", dependencies: ["AnyTranslate"])
