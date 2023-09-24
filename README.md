@@ -34,7 +34,7 @@ To get started with the AnyTranslate Swift API Package, follow these steps:
 
 3. **Initialization**: Initiate the API with your authentication token using `AnyTranslate.shared.initiate(token: your_token)`.
 
-4. **Translation**: Translate UI text elements using the `.anyTranslated()` method or `anyTranslated(_ arguments: CVarArg ...)` method. Translation automatically will appear instead of given text after UI refresh (only first time, after that cached value will be shown). 
+4. **Translation**: Translate UI text elements using the `.anyTranslated()` method or `anyTranslated(_ arguments: CVarArg ...)` method. Translation automatically will appear instead of given text after UI refresh and after some time (2-5 sec, only first time, after that cached value will be shown). 
 
 5. **Language Configuration**: Set the target language for translation using `AnyTranslate.shared.applyLanguage("en-US")` to match the user's preference if needed.
 
