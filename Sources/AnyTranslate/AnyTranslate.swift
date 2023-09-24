@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 public class AnyTranslate {
-    static var shared = AnyTranslate()
+    public static var shared = AnyTranslate()
     private var token: String = ""
     private var languageCode: String = ""
     public let anytranslatePublisher = PassthroughSubject<(String, String), Never>()
