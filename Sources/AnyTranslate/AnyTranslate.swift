@@ -97,7 +97,7 @@ public class AnyTranslate {
         }
         
         let session = URLSession.shared
-        let url = URL(string: "https://anytranslate.thebabel.fish/api/v1/anytranslate")!
+        let url = URL(string: "https://anytranslate-api.onrender.com/api/v1/anytranslate")!
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
